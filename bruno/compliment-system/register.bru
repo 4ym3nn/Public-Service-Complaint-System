@@ -1,0 +1,23 @@
+meta {
+  name: register
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://127.0.0.1:8000/api/users/register/
+  body: json
+  auth: inherit
+}
+
+body:json {
+  { 
+    "email":"aymen@gmail.com",
+    "username":"aymen",
+    "password":"aymen"
+  }
+}
+
+settings {
+  encodeUrl: true
+}

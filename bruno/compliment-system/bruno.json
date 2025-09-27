@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "compliment-system",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
